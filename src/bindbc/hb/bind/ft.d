@@ -9,7 +9,7 @@ module bindbc.hb.bind.ft;
 version(HB_with_freetype):
 version(Have_bindbc_freetype):
 
-import bindbc.freetype.bind.freetype : FT_Face;
+import bindbc.freetype : FT_Face;
 import bindbc.hb.bind.common;
 import bindbc.hb.bind.face;
 import bindbc.hb.bind.font;
